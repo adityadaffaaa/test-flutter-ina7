@@ -17,4 +17,7 @@ final class KelipatanSuccess extends KelipatanState {
   const KelipatanSuccess({
     required this.numbers,
   });
+
+  @override
+  List<Object> get props => [numbers];
 }
